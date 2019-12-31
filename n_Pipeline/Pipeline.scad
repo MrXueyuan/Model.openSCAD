@@ -7,8 +7,9 @@ module Pipeline (length) {
 }
 
 module main() {
-    Pipeline (8)
-        sphere(1,center = true);
+    Pipeline (10
+    )
+    sphere(1,center = true);
 }
 
 main ();
