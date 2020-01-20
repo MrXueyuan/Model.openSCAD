@@ -46,4 +46,4 @@ module Hot_end (x,y,z) {
 }
 
 
-    Hot_end (0,0,315);
+    Hot_end (0,0,0);
