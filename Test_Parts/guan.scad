@@ -8,7 +8,7 @@ module guan (kuan,long) {
 
 module main () {
     union() {
-        translate([0, 0, 0]) {
+/*         translate([0, 0, 0]) {
             difference () {
                 guan (120,1000);
                 translate([60, 0, 0]) {
@@ -20,7 +20,7 @@ module main () {
                     guan (100,300) ;
                 }
             }
-        }
+        } */
         translate([0, 0, 100]) {
             difference() {
                 cube(size=[120, 120, 10], center=true);
@@ -31,3 +31,5 @@ module main () {
 }
 
 main ();
+translate([0, 0, 100]) 
+guan(50,100);
